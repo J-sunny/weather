@@ -1,0 +1,90 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "天气查询",
+				"usingComponents": {
+					"van-toast": "/wxcomponents/vant-weapp/dist/toast/index"
+				}
+			}
+		},
+		{
+			"path": "pages/history/index",
+			"style": {
+				"navigationBarTitleText": "那年今日",
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black",
+				"usingComponents": {
+					"van-toast": "/wxcomponents/vant-weapp/dist/toast/index"
+				}
+			}
+		},
+		{
+			"path": "pages/joke/index",
+			"style": {
+				"navigationBarTitleText": "精选笑话",
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black",
+				"usingComponents": {
+					"van-toast": "/wxcomponents/vant-weapp/dist/toast/index"
+				}
+			}
+		},
+		{
+			"path": "pages/code/index",
+			"style": {
+				"navigationBarTitleText": "二维码生成",
+				"navigationBarBackgroundColor":"#FFF",
+				"navigationBarTextStyle":"black",
+				"usingComponents": {
+					"van-toast": "/wxcomponents/vant-weapp/dist/toast/index"
+				}
+			}
+		}
+		
+		
+	],
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示" // 高速公路行驶持续后台定位
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小小工具箱",
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#41a863",
+		"borderStyle": "white",
+		"list": [{
+				"selectedIconPath": "static/weather.png",
+				"iconPath": "static/weather-select.png",
+				"pagePath": "pages/index/index",
+				"text": "天气查询"
+			},
+			{
+				"selectedIconPath": "static/history.png",
+				"iconPath": "static/history-select.png",
+				"pagePath": "pages/history/index",
+				"text": "那年今日"
+			},
+			{
+				"selectedIconPath": "static/code.png",
+				"iconPath": "static/code-select.png",
+				"pagePath": "pages/code/index",
+				"text": "制作二维码"
+			},
+			{
+				"selectedIconPath": "static/joke.png",
+				"iconPath": "static/jock-select.png",
+				"pagePath": "pages/joke/index",
+				"text": "精选笑话"
+			}
+		]
+	}
+}

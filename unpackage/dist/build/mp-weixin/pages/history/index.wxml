@@ -1,0 +1,1 @@
+<view class="historyCon"><block wx:for="{{historyList}}" wx:for-item="item" wx:for-index="index" wx:key="_id"><view class="historyList"><view class="title">{{index+1+"."+item.title}}</view><view class="des">{{item.des}}</view><block wx:if="{{item.pic!=''}}"><image class="imgs" src="{{item.pic}}" mode></image></block></view></block></view>

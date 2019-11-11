@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "二维码生成",
+  "navigationBarBackgroundColor": "#FFF",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "van-toast": "/wxcomponents/vant-weapp/dist/toast/index"
+  }
+}

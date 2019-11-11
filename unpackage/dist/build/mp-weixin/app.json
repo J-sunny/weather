@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/history/index",
+    "pages/joke/index",
+    "pages/code/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小小工具箱",
+    "navigationBarBackgroundColor": "#FFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#41a863",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "static/weather.png",
+        "iconPath": "static/weather-select.png",
+        "pagePath": "pages/index/index",
+        "text": "天气查询"
+      },
+      {
+        "selectedIconPath": "static/history.png",
+        "iconPath": "static/history-select.png",
+        "pagePath": "pages/history/index",
+        "text": "那年今日"
+      },
+      {
+        "selectedIconPath": "static/code.png",
+        "iconPath": "static/code-select.png",
+        "pagePath": "pages/code/index",
+        "text": "制作二维码"
+      },
+      {
+        "selectedIconPath": "static/joke.png",
+        "iconPath": "static/jock-select.png",
+        "pagePath": "pages/joke/index",
+        "text": "精选笑话"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取天气"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
